@@ -7,15 +7,16 @@
 <p>You will be tasked with predicting if the first stage of the SpaceX Falcon 9 rocket will land successfully. With the help of your Data Science findings and models, the competing startup you have been hired by can make more informed bids against SpaceX for a rocket launch.</p>
 
 # Learning Objectives
-- Develop Python code to manipulate data in a Pandas data frame;
-- Create a Python Pandas data frame by converting a JSON file;
-- Create a Jupyter notebook and make it sharable using GitHub;
-- Utilize data science methodologies to define and formulate a real-world business problem;
-- Utilize your data analysis tools to load a dataset, clean it, and find out interesting insights from it.
+- Develop Python code to manipulate data within a Pandas DataFrame;
+- Create a Pandas DataFrame by converting data from a JSON file;
+- Set up a Jupyter Notebook and make it shareable using GitHub;
+- Apply data science methodologies to define and formulate a real-world business problem;
+- Use data analysis tools to load a dataset, clean it, and uncover interesting insights.
 
 # Project Scenario and Overview
-<p>The commercial space age is here, companies are making space travel affordable for everyone. Virgin Galactic is providing suborbital spaceflights. Rocket Lab is a small satellite provider. Blue Origin manufactures sub-orbital and orbital reusable rockets. Perhaps the most successful is SpaceX. 
-SpaceX’s accomplishments include:</p>
+<p>The commercial space age is here, companies are making space travel affordable for everyone. Virgin Galactic is providing suborbital spaceflights. Rocket Lab is a small satellite provider. Blue Origin manufactures sub-orbital and orbital reusable rockets. Perhaps the most successful is SpaceX.</p>
+
+<p>SpaceX’s accomplishments include:</p>
 
 - Sending spacecraft to the International Space Station;
 - Starlink, a satellite internet constellation providing satellite Internet access;
