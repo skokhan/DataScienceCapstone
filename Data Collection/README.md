@@ -13,5 +13,5 @@ Additionally, data is extracted from related Falcon 9 Wiki pages using the Pytho
 
 We then parse the data from these tables and convert it into a flat table format, specifically a Pandas DataFrame, ensuring that it is structured for effective analysis and visualization before exporting it to a CSV file.​
 
-### Web Scraping flowchart 
+### Web scraping flowchart 
 <img src="https://github.com/skokhan/DataScienceCapstone/blob/803d59f0a654bff0aba09b9c01dbeaaf8cfe3cda/Data%20Collection/Web%20Scraping.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/803d59f0a654bff0aba09b9c01dbeaaf8cfe3cda/Data%20Collection/Web%20Scraping.png" width="50%"/>
