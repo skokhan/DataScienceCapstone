@@ -5,7 +5,7 @@ The SpaceX launch data used in the analysis is gathered utilizing the GET reques
 
 We use the endpoint [api.spacexdata.com/v4/launches/past](https://api.spacexdata.com/v4/launches/past) to access launch data. By performing a GET request with the requests library, we retrieve this data, which is provided in a structured JSON format. To make the JSON data more usable for visualization and analysis, we normalize it into a flat table, converting it into a Pandas DataFrame.​
 
-![SpaceX REST API​ calls flowchart]()
+<img src="https://github.com/skokhan/DataScienceCapstone/blob/803d59f0a654bff0aba09b9c01dbeaaf8cfe3cda/Data%20Collection/SpaceX%20API.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/803d59f0a654bff0aba09b9c01dbeaaf8cfe3cda/Data%20Collection/SpaceX%20API.png" width="45%"/>
 
 ## Web Scraping Falcon 9 Launch Records​
 Additionally, data is extracted from related Falcon 9 Wiki pages using the Python BeautifulSoup package. This process involves gathering information from relevant HTML tables that contain important records of Falcon 9 launches. ​
