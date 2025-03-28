@@ -1,9 +1,9 @@
 # Data Wrangling 
 
-In the data set, there are several different cases where the booster did not land successfully. Sometimes a landing was attempted but failed due to an accident. For example, 
+The data set includes various instances where the booster did not land successfully. In some cases, a landing was attempted but failed due to an accident. Here are the definitions of the outcomes:
 
-- True Ocean means the mission outcome was successfully landed to a specific region of the ocean, while False Ocean means the mission outcome was unsuccessfully landed to a specific region of the ocean.
-- True RTLS means the mission outcome was successfully landed to a ground pad, while False RTLS means the mission outcome was unsuccessfully landed to a ground pad.
-- True ASDS means the mission outcome was successfully landed on a drone ship False ASDS means the mission outcome was unsuccessfully landed on a drone ship.
+- "True Ocean" indicates that the mission successfully landed in a specific region of the ocean, while "False Ocean" means the mission did not land successfully in that area;
+- "True RTLS" means the mission successfully landed on a ground pad, while "False RTLS" indicates an unsuccessful landing on a ground pad;
+- "True ASDS" signifies that the mission successfully landed on a drone ship, whereas "False ASDS" means the mission did not land successfully on a drone ship.
 
-We mainly convert those outcomes into Training Labels with 1 means the booster successfully landed 0 means it was unsuccessful.
+We primarily convert these outcomes into training labels, where a label of 1 signifies a successful landing and a label of 0 indicates an unsuccessful landing.
