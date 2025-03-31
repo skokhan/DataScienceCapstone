@@ -6,6 +6,7 @@ The SpaceX data includes several launch facilities: ​
 - Kennedy Space Center Launch Complex 39A (KSC LC 39A). ​
 
 Each launch is aimed at reaching a specific orbit, and a variety of orbit ​types are illustrated in the accompanying plot. ​
+<img src="https://github.com/skokhan/DataScienceCapstone/blob/090b6c1cd8e9bed3189cb58e976f7360f275d351/Data%20Collection/SpaceX%20API.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/090b6c1cd8e9bed3189cb58e976f7360f275d351/Data%20Collection/SpaceX%20API.png" width="50%"/>
 
 The dataset also contains multiple instances where the booster did not land ​successfully. In some cases, a landing was attempted but failed due to an ​accident. ​
 
