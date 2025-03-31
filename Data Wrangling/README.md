@@ -1,9 +1,12 @@
 # Data Wrangling 
 
-The data set includes various instances where the booster did not land successfully. In some cases, a landing was attempted but failed due to an accident. Here are the definitions of the outcomes:
+The SpaceX data includes several launch facilities: ​
+- Cape Canaveral Space Launch Complex 40 (CCAFS SLC 40);​
+- Vandenberg Air Force Base Space Launch Complex 4E (VAFB SLC 4E);​
+- Kennedy Space Center Launch Complex 39A (KSC LC 39A). ​
 
-- "True Ocean" indicates that the mission successfully landed in a specific region of the ocean, while "False Ocean" means the mission did not land successfully in that area;
-- "True RTLS" means the mission successfully landed on a ground pad, while "False RTLS" indicates an unsuccessful landing on a ground pad;
-- "True ASDS" signifies that the mission successfully landed on a drone ship, whereas "False ASDS" means the mission did not land successfully on a drone ship.
+Each launch is aimed at reaching a specific orbit, and a variety of orbit ​types are illustrated in the accompanying plot. ​
 
-We primarily convert these outcomes into training labels, where a label of 1 signifies a successful landing and a label of 0 indicates an unsuccessful landing.
+The dataset also contains multiple instances where the booster did not land ​successfully. In some cases, a landing was attempted but failed due to an ​accident. ​
+
+As part of our exploratory data analysis, we identify a set of unsuccessful landing outcomes where the second stage did not land successfully. We define both successful and unsuccessful landing outcomes and convert these outcomes into a classification variable. This variable will represent the result of each launch and will serve as the training labels. A label of 1 indicates a successful landing, while a label of 0 signifies an unsuccessful landing.
