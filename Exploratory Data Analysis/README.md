@@ -1,8 +1,9 @@
-# Exploratory Data Analysis Using Pandas and Matplotlib
+# Exploratory Data Analysis (EDA) with Data Visualization
 
 Through exploratory data analysis (EDA) with visualization techniques, we use scatter plots, bar plot, and line plot to examine the data. This helps us identify which attributes correlate with successful landings, extract meaningful patterns and trends, and conduct feature engineering.
 
 ### Scatter Plots​
+
 - FlightNumber vs. PayloadMass;​
 - FlightNumber vs. LaunchSite;​
 - Payload Mass vs. Launch Site;​
@@ -23,5 +24,6 @@ A bar graph shows a comparison among categories. We use a bar plot to identify w
 
 Line plots are helpful for tracking changes over time. We use a line plot to visualize the average launch success trend.​
 ​
-# Exploratory Data Analysis Using SQL
-Create and execute SQL queries to select and sort data. Write Python code to conduct exploratory data analysis by manipulating data in a Pandas data frame.
+# Exploratory Data Analysis (EDA) with SQL
+
+Through exploratory data analysis (EDA) using SQL, we create and execute queries to select and sort data. We write Python code to conduct exploratory data analysis by manipulating data in a Pandas DataFrame.​
