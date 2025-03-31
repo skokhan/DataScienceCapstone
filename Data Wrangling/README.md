@@ -17,4 +17,4 @@ As part of our exploratory data analysis, we identify a set of unsuccessful land
 
 ### Data wrangling flowchart
 
-<img alt="Data Wrangling flowchart" src="https://github.com/skokhan/DataScienceCapstone/blob/547cb0c32a9c75f6212806a4b46820bea454ac06/Data%20Wrangling/Data%20Wrangling.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/547cb0c32a9c75f6212806a4b46820bea454ac06/Data%20Wrangling/Data%20Wrangling.png" width="70%"/>
+<img alt="Data Wrangling flowchart" src="https://github.com/skokhan/DataScienceCapstone/blob/547cb0c32a9c75f6212806a4b46820bea454ac06/Data%20Wrangling/Data%20Wrangling.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/547cb0c32a9c75f6212806a4b46820bea454ac06/Data%20Wrangling/Data%20Wrangling.png" width="97%"/>
