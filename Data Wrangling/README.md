@@ -5,7 +5,7 @@ The SpaceX data includes several launch facilities: ​
 - Vandenberg Air Force Base Space Launch Complex 4E (VAFB SLC 4E);​
 - Kennedy Space Center Launch Complex 39A (KSC LC 39A). ​
 
-Each launch is aimed at reaching a specific orbit, and a variety of orbit ​types are illustrated in the accompanying plot. ​
+Each launch is aimed at reaching a specific orbit, and the various types ​of orbits used by SpaceX are illustrated in the accompanying plot. ​
 
 ### Orbit types
 
