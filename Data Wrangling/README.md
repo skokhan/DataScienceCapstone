@@ -7,7 +7,7 @@ The SpaceX data includes several launch facilities: ​
 
 Each launch is aimed at reaching a specific orbit, and the various types ​of orbits used by SpaceX are illustrated in the accompanying plot. ​
 
-### Orbit types
+### Orbit types used by SpaceX
 
 <img alt="Orbit types" src="https://github.com/skokhan/DataScienceCapstone/blob/547cb0c32a9c75f6212806a4b46820bea454ac06/Data%20Wrangling/SpaceX%20orbits.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/547cb0c32a9c75f6212806a4b46820bea454ac06/Data%20Wrangling/SpaceX%20orbits.png" width="50%"/>
 
