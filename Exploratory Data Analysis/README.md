@@ -15,21 +15,21 @@ By conducting exploratory data analysis (EDA) using SQL, we formulate and execut
 
 # Exploratory Data Analysis (EDA) with Data Visualization
 
-Through exploratory data analysis (EDA) with visualization techniques, we use scatter plots, bar plot, and line plot to examine the data. This helps us identify which attributes correlate with successful landings, extract meaningful patterns and trends, and conduct feature engineering.
+Through exploratory data analysis (EDA) with visualization techniques, we use categorical scatter plots, bar plot, and line plot to examine the data. This helps us identify which attributes correlate with successful landings, extract meaningful patterns and trends, and conduct feature engineering.
 
-### Scatter Plots​
+### Categorical Scatter Plots​
 
-- FlightNumber vs. PayloadMass;​
-- FlightNumber vs. LaunchSite;​
+- Flight Number vs. Payload Mass;​
+- Flight Number vs. Launch Site;​
 - Payload Mass vs. Launch Site;​
-- FlightNumber and Orbit type;​
+- Flight Number and Orbit type;​
 - Payload Mass vs. Orbit type.​
 
-A scatter plot uses dots to represent values for two different numeric variables. We use scatter plots to identify relationships between different attributes and successful landings.​​
+A scatter plot uses dots to represent values for two different numeric variables. We use categorical scatter plots to identify relationships between different attributes and successful landings.​
 
 ### Bar Plot​
 
-- Success Rate vs. Orbit Type.​
+- Success Rate of Each Orbit Type.​
 
 A bar graph shows a comparison among categories. We use a bar plot to identify which orbits have the highest success rates.​
 
