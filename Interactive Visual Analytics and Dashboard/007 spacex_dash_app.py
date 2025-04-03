@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 # Read the airline data into pandas dataframe
-spacex_df = pd.read_csv("spacex_launch_dash.csv")
+spacex_df = pd.read_csv("007 spacex_launch_dash.csv")
 max_payload = spacex_df['Payload Mass (kg)'].max()
 min_payload = spacex_df['Payload Mass (kg)'].min()
 #payload_marks = {i: '{}'.format(i) for i in spacex_df['Payload Mass (kg)'].unique()}
@@ -98,26 +98,38 @@ def get_scatter_chart(entered_site, slider_range):
     mask = (spacex_df['Payload Mass (kg)']>=low) & (spacex_df['Payload Mass (kg)']<=high)
     filtered_df = spacex_df[mask]
     if entered_site == 'ALL':
-        fig = px.scatter(filtered_df, 
+        #fig = px.scatter(filtered_df, 
+        fig = px.strip(filtered_df, 
             x='Payload Mass (kg)', 
             y='class', 
             color='Booster Version Category', 
+            stripmode='group',
+            #symbol='Booster Version Category', 
+            #size='Payload Mass (kg)', 
             labels={'class':'Success'}, 
             title='Correlation betweeen Payload and Success for All Sites'
             )
         #fig.update_xaxes(type='category')
+        fig.update_traces(marker=dict(size=15, opacity=0.6, line=dict(width=1, color='DarkSlateGrey')))
+        fig.update_traces(width=30, jitter=1)
         fig.update_yaxes(type='category')
         return fig
     else:
-        filtered_df = filtered_df[filtered_df['Launch Site']==entered_site]
-        fig = px.scatter(filtered_df, 
+        filtered_df = filtered_df[filtered_df['Launch Site']==entered_site].sort_values(by='class', ascending=True)
+        #fig = px.scatter(filtered_df, 
+        fig = px.strip(filtered_df, 
             x='Payload Mass (kg)', 
             y='class', 
             color='Booster Version Category', 
+            stripmode='group',
+            #symbol='Booster Version Category', 
+            #size='Payload Mass (kg)', 
             labels={'class':'Success'}, 
             title='Correlation betweeen Payload and Success for Site '+entered_site
             )
         #fig.update_xaxes(type='category')
+        fig.update_traces(marker=dict(size=15, opacity=0.6, line=dict(width=1, color='DarkSlateGrey')))
+        fig.update_traces(width=30, jitter=1)
         fig.update_yaxes(type='category')        
         return fig
 
