@@ -14,3 +14,16 @@ To illustrate our findings, we use Folium to create an interactive map, marking 
 Ultimately, our goal is to explain how to choose an optimal launch site.​
 
 # Interactive Dashboard with Ploty Dash
+
+By utilizing an interactive analytics approach, we can quickly and effectively identify visual patterns. We develop a dashboard application using the Python Plotly Dash package. This dashboard enables us to extract insights from the SpaceX dataset more easily compared to traditional static graphs. 
+​
+The dashboard includes several input components, such as a dropdown list and a range slider, to interact with a Pie Chart and a Scatter Plot.​
+
+- ### Launch Site Dropdown List​
+  There are four different launch sites, and we would like to first determine which one has the highest success count. After that, we can select a specific site to examine its detailed success rate. ​
+- ### Payload Range Slider​
+  We explore whether the variable payload is correlated with mission outcomes. Using the dashboard, we can easily select different payload ranges to identify any visual patterns. ​
+- ### Pie Chart​
+  We utilize a pie chart to visualize the total number of successful launches. If a specific launch site is selected, the pie chart displays both the success count and the failure count for that site.​
+- ### Scatter Plot​
+  The scatter plot allows us to visually observe the correlation between payload and mission outcomes for selected sites. Additionally, we incorporate color labels for each scatter point based on the booster version, enabling us to observe mission outcomes across different boosters.​
