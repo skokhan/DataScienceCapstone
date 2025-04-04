@@ -11,7 +11,21 @@
 - Create a Pandas DataFrame by converting data from a JSON file;
 - Set up a Jupyter Notebook and make it shareable using GitHub;
 - Apply data science methodologies to define and formulate a real-world business problem;
-- Use data analysis tools to load a dataset, clean it, and uncover valuable insights.
+- Use data analysis tools to load a dataset, clean it, and uncover valuable insights;
+- Write Python code to conduct exploratory data analysis (EDA) by manipulating data in a Pandas DataFrame;
+- Create and execute SQL queries to analyze data;
+- Generate scatter plots and bar charts by writing Python code to analyze data in a Pandas DataFrame;
+- Utilize data visualization tools to extract meaningful patterns that guide the modeling process and perform feature engineering;
+- Build an interactive dashboard to analyze launch records using Plotly Dash;
+- Create pie charts and scatter plots with the Plotly Dash library to visualize data;
+- Develop interactive maps to analyze the proximity of launch sites using Folium;
+- Utilize interactive maps, plot coordinates, and marker clusters by writing Python code with the Folium library;
+- Calculate distances on an interactive map by implementing Python code using the Folium library;
+- Preprocess and standardize data for machine learning classification models;
+- Perform a train/test split for model evaluation;
+- Use machine learning techniques to build predictive models, including Logistic Regression, Support Vector Machine, Decision Tree Classifier, and k-Nearest Neighbors;
+- Utilize Grid Search to tune models and identify the best hyperparameters;
+- Evaluate model accuracy to determine which model performs best, thereby helping the business function more effectively.
 
 # Project Scenario and Overview
 <p>We are in the age of commercial space travel, where companies are making space exploration more accessible to everyone. Virgin Galactic is offering suborbital spaceflights, while Rocket Lab focuses on small satellite launching. Blue Origin manufactures sub-orbital and orbital reusable rockets, but perhaps the most successful of them all is SpaceX.</p>
