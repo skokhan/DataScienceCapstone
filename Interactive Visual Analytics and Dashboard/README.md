@@ -1,6 +1,7 @@
 # Interactive Visual Analytics with Folium
 
-The success rate of rocket launches may depend on the location and proximity of the launch site, particularly concerning the initial trajectories of the rockets. Identifying an optimal location for building a launch site involves many factors, and analyzing existing launch site locations may help us uncover some of these factors. ​
+The success rate of rocket launches may depend on the location and proximity of the launch site, particularly concerning the initial trajectories of the rockets. Identifying an optimal location for building a launch site involves many factors, and analyzing existing launch site locations may help us uncover some of these factors.
+
 To illustrate our findings, we use Folium to create an interactive map, marking the locations of the launch sites and their nearby areas. We follow these key steps:​
 
 - ### Mark All Launch Sites​
@@ -15,9 +16,9 @@ Ultimately, our goal is to explain how to choose an optimal launch site.​
 
 # Interactive Dashboard with Ploty Dash
 
-By utilizing an interactive analytics approach, we can quickly and effectively identify visual patterns. We develop a dashboard application using the Python Plotly Dash package. This dashboard enables us to extract insights from the SpaceX dataset more easily compared to traditional static graphs. 
-​
-The dashboard includes several input components, such as a dropdown list and a range slider, to interact with a Pie Chart and a Scatter Plot.​
+By utilizing an interactive analytics approach, we can quickly and effectively identify visual patterns. We develop a dashboard application using the Python Plotly Dash package. This dashboard enables us to extract insights from the SpaceX dataset more easily compared to traditional static graphs.
+
+The dashboard features input components, including a dropdown list for launch sites and a slider for payload range, enabling interaction with a pie chart and a scatter plot.​
 
 - ### Launch Site Dropdown List​
   There are four different launch sites, and we would like to first determine which one has the highest success count. After that, we can select a specific site to examine its detailed success rate. ​
