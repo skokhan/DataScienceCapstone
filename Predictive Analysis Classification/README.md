@@ -1,9 +1,5 @@
 # Predictive Analysis (Classification)
 
-<table border="0">
- <tr>
-    <td width="77%">
-
 - ### Data Preprocessing and Standardization​
   We start by loading data from a CSV file. To effectively utilize machine learning, we begin by preprocessing and standardizing our data for classification models.​
 
@@ -19,9 +15,5 @@
 - ### Assess the Performance and Effectiveness​
   Finally, we assess the accuracy of each model and plot confusion matrices to determine which one performs the best, ultimately enhancing the overall effectiveness of our predictive classification analysis.​
 
-    </td>
-    <td>
-<img src="https://github.com/skokhan/DataScienceCapstone/blob/f9bba7b6cfe110a721ff893bf6b7338c4530a465/Predictive%20Analysis%20Classification/Classification.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/f9bba7b6cfe110a721ff893bf6b7338c4530a465/Predictive%20Analysis%20Classification/Classification.png" />
-    </td>
- </tr>
-</table>
+### Model development flowchart
+<img src="https://github.com/skokhan/DataScienceCapstone/blob/f9bba7b6cfe110a721ff893bf6b7338c4530a465/Predictive%20Analysis%20Classification/Classification.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/f9bba7b6cfe110a721ff893bf6b7338c4530a465/Predictive%20Analysis%20Classification/Classification.png" width="205" />
