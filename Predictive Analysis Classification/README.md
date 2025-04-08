@@ -1,7 +1,7 @@
 # Predictive Analysis (Classification)
 
 - ### Data Preprocessing and Standardization​
-  To effectively utilize machine learning, we begin by preprocessing and standardizing our data for classification models.​
+  We start by loading data from a CSV file. To effectively utilize machine learning, we begin by preprocessing and standardizing our data for classification models.​
 
 - ### Train/Test Split​
   Next, we perform a train/test split to evaluate the models. This split allows us to use one portion of the data for training the model and another for analyzing its performance.​
