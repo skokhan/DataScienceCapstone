@@ -16,4 +16,4 @@
   Finally, we assess the accuracy of each model and plot confusion matrices to determine which one performs the best, ultimately enhancing the overall effectiveness of our predictive classification analysis.​
 
 ### Model development flowchart
-<img src="https://github.com/skokhan/DataScienceCapstone/blob/f9bba7b6cfe110a721ff893bf6b7338c4530a465/Predictive%20Analysis%20Classification/Classification.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/f9bba7b6cfe110a721ff893bf6b7338c4530a465/Predictive%20Analysis%20Classification/Classification.png" width="205" />
+<img src="https://github.com/skokhan/DataScienceCapstone/blob/420bde8db6c026be7dfde03e9ebeb2c36f710bc8/Predictive%20Analysis%20Classification/Classification-v.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/420bde8db6c026be7dfde03e9ebeb2c36f710bc8/Predictive%20Analysis%20Classification/Classification-v.png" />
