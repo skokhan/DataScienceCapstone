@@ -15,5 +15,5 @@
 - ### Assess the Performance and Effectiveness​
   Finally, we assess the accuracy of each model and plot confusion matrices to determine which one performs the best, ultimately enhancing the overall effectiveness of our predictive classification analysis.​
 
-### Model development flowchart
+### Model Development flowchart
 <img src="https://github.com/skokhan/DataScienceCapstone/blob/420bde8db6c026be7dfde03e9ebeb2c36f710bc8/Predictive%20Analysis%20Classification/Classification-v.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/420bde8db6c026be7dfde03e9ebeb2c36f710bc8/Predictive%20Analysis%20Classification/Classification-v.png" />
