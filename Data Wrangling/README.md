@@ -15,6 +15,6 @@ The dataset also contains multiple instances where the booster did not land ​s
 
 As part of our exploratory data analysis, we identify a set of unsuccessful landing outcomes where the second stage did not land successfully. We define both successful and unsuccessful landing outcomes and convert these outcomes into a classification variable. This variable will represent the result of each launch and will serve as the training labels. A label of 1 indicates a successful landing, while a label of 0 signifies an unsuccessful landing.
 
-### Data wrangling flowchart
+### Data Wrangling flowchart
 
 <img alt="Data Wrangling flowchart" src="https://github.com/skokhan/DataScienceCapstone/blob/7e180aed24507ce656f58b020e348fd1ab5cdeb2/Data%20Wrangling/Data%20Wrangling.png" data-canonical-src="https://github.com/skokhan/DataScienceCapstone/blob/7e180aed24507ce656f58b020e348fd1ab5cdeb2/Data%20Wrangling/Data%20Wrangling.png" width="97%"/>
