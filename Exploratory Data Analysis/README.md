@@ -22,8 +22,8 @@ Through exploratory data analysis (EDA) with visualization techniques, we use ca
 - Flight Number vs. Payload Mass;​
 - Flight Number vs. Launch Site;​
 - Payload Mass vs. Launch Site;​
-- Flight Number and Orbit type;​
-- Payload Mass vs. Orbit type.​
+- Flight Number and Orbit Type;​
+- Payload Mass vs. Orbit Type.​
 
 A scatter plot uses dots to represent values for two different numeric variables. We use categorical scatter plots to identify relationships between different attributes and successful landings.​
 
