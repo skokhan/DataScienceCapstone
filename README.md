@@ -1,10 +1,10 @@
 # Applied Data Science Capstone by IBM
 
-<p>This course is the final component of the IBM Data Science Professional Certificate and the Applied Data Science with Python Specialization. The capstone project offers you the opportunity to practice real-life data science work with actual datasets.</p>
+<p>This course serves as the final component of both the IBM Data Science Professional Certificate and the Applied Data Science with Python Specialization. The capstone project provides an opportunity to engage in real-world data science tasks using actual datasets.</p>
 
-<p>In this capstone, you will assume the role of a Data Scientist working for a startup aiming to compete with SpaceX. You will follow the data science methodology, which includes data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting your results to stakeholders.</p>
+<p>In this capstone, the role of a Data Scientist is assumed within a startup seeking to compete with SpaceX. The project follows the complete data science methodology, encompassing data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and the presentation of results to stakeholders.</p>
 
-<p>Your primary task will be to predict whether the first stage of the SpaceX Falcon 9 rocket will land successfully. By leveraging your data science findings and models, the startup you are working for can make more informed bids against SpaceX for rocket launches.</p>
+<p>The primary objective is to predict the likelihood of a successful landing of the first stage of the SpaceX Falcon 9 rocket. Insights and predictive models developed through the project are intended to support more informed bidding strategies in competition with SpaceX for launch contracts.</p>
 
 # Learning Objectives
 - Develop Python code to manipulate data within a Pandas DataFrame;
@@ -38,4 +38,4 @@
 
 <p>SpaceX advertises its Falcon 9 rocket launches at a cost of $62 million, while competitors charge upwards of $165 million. A significant portion of the savings stems from SpaceX's ability to reuse the first stage of its rockets. Therefore, if we can determine whether the first stage will successfully land, we can estimate the launch cost. This information would be valuable for any competing company wanting to bid against SpaceX for a rocket launch.</p>
 
-<p>In this capstone, you will take on the role of a Data Scientist for a new rocket company, SpaceY, that aims to compete with SpaceX, founded by billionaire industrialist Elon Musk. Your job will involve gathering information about SpaceX and creating dashboards for your team. Additionally, you will analyze if SpaceX will reuse the first stage. Instead of relying on traditional rocket science, you will train a machine learning model using public information to predict the likelihood of the first stage landing successfully.</p>
+<p>Within the scope of the project, the assigned role is that of a Data Scientist at a new aerospace company, SpaceY, that aims to compete with SpaceX, founded by entrepreneur Elon Musk. The responsibilities include collecting data on SpaceX, developing dashboards for internal use, and analyzing the potential reuse of the rocket’s first stage. Rather than depending on traditional aerospace engineering, the approach involves training a machine learning model on publicly available data to estimate the probability of a successful first-stage landing.</p>
