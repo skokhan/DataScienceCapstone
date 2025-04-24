@@ -16,4 +16,5 @@ This folder contains the final data-driven report generated as part of the Space
 * Executable Python code;
 * Embedded SQL queries and their execution results;
 * Rendered charts and visualizations;
-* Model performance summaries and conclusions.
+* Model performance summaries and conclusions;
+* Links to GitHub Notebooks and Related Resources.
